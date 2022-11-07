@@ -5,7 +5,7 @@ const NavItem = (props) => {
   return (
     <div
       className=""
-      style={{ display: "flex", alignItems: "center", gap: 30, cursor:"pointer"}}
+      style={{ display: "flex", alignItems: "center", gap: 25, cursor:"pointer"}}
     >
       <Image src={props.icon} width="25" height="25"></Image>
       <p style={{ color: "#fff" }}>{props.text}</p>
