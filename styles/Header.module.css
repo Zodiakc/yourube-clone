@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.logoBlock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.noticeIcon{
+    cursor: pointer;
+}
+.profileBlock{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profileIcon{
+    cursor: pointer;
+}
+.profileIcon:hover{
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.burgerIcon{
+    cursor: pointer;
+}
