@@ -12,3 +12,18 @@
     color: #fff;
     text-decoration: none;
 }
+@media (max-width: 1110px){
+    .videosBlock{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 920px){
+    .videosBlock{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 700px){
+    .videosBlock{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

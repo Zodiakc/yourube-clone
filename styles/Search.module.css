@@ -34,3 +34,19 @@
   background-color: #2f2f2f;
   transition: 0.3s;
 }
+@media(max-width:815px){
+  .searchInputItem{
+    width: 150px;
+  }
+  .searchButton{
+    padding: 5px 10px;
+  }
+}
+@media(max-width: 510px){
+  .searchInputItem{
+    width: 100px;
+  }
+  .searchButton{
+    padding: 3px 6px;
+  }
+}

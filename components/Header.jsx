@@ -18,6 +18,7 @@ const Header = () => {
           width="100"
           height="70"
           style={{ objectFit: "cover" }}
+          className={styles.youtubeLogo}
         ></Image>
       </div>
 

@@ -12,5 +12,15 @@
 .navItem:hover {
   background-color: #272727;
   transition: 0.3s;
-  
+}
+@media (max-width: 700px) {
+ .navbar{
+    padding: 10px;
+ }
+ .navMenuText{
+    display: none;
+ }
+ .navMenuIcon{
+    margin: 10px;
+ }
 }
