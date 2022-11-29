@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import SearchInput from "./SearchInput";
 import styles from "../styles/Header.module.css";
-const Header = () => {
+import { useState } from "react";
+const Header = ({ toggleNav }) => {
   const [noticeModal, setNoticeModal] = useState(false);
   return (
     <header className={styles.header}>
@@ -12,6 +13,7 @@ const Header = () => {
           width="24"
           height="24"
           className={styles.burgerIcon}
+          onClick={() => toggleNav()}
         ></Image>
         <Image
           src="/youtube.png"
@@ -45,7 +47,7 @@ const Header = () => {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
-              padding: "0 25px"
+              padding: "0 25px",
             }}
           >
             <h3>Уведомления</h3>

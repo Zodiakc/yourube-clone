@@ -24,3 +24,9 @@
     margin: 10px;
  }
 }
+.noneText{
+  display: none;
+}
+.marginIcon{
+  margin: 10px;
+}

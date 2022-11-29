@@ -27,7 +27,7 @@ const Videos = () => {
           <a href="#" className={styles.videoTitle}>
             {i.channelTitle}
           </a>
-          <h6 style={{ color: "#888585" }}>Опубликовано: {i.publishedAt}</h6>
+          <h6 style={{ color: "#888585" }}>Опубликовано: {i.publishedAt.slice(0,10)}</h6>
         </div>
       ))}
     </div>
