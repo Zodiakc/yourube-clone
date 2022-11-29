@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { nanoid } from 'nanoid'
 import styles from "../styles/Videos.module.css";
 import Image from "next/image";
 const Videos = () => {
@@ -15,9 +16,9 @@ const Videos = () => {
 
   return (
     <div className={styles.videosBlock}>
-      {/*    <button onClick={() => console.log(snippets)}>click</button> */}
+      
       {snippets.map((i) => (
-        <div key={i.channelId}>
+        <div key={nanoid()}>
           <img
             src={i.thumbnails.standard.url}
             alt="#"

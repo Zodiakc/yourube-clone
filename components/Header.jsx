@@ -12,11 +12,13 @@ const Header = ({ toggleNav }) => {
           src="/burger.svg"
           width="24"
           height="24"
+          alt="image"
           className={styles.burgerIcon}
           onClick={() => toggleNav()}
         ></Image>
         <Image
           src="/youtube.png"
+          alt="image"
           width="100"
           height="70"
           style={{ objectFit: "cover" }}
@@ -31,9 +33,11 @@ const Header = ({ toggleNav }) => {
           width="24"
           height="24"
           className={styles.noticeIcon}
+          alt="image"
           onClick={() => setNoticeModal(!noticeModal)}
         ></Image>
         <Image
+          alt="image"
           src="/profile.svg"
           width="40"
           height="40"
@@ -51,7 +55,7 @@ const Header = ({ toggleNav }) => {
             }}
           >
             <h3>Уведомления</h3>
-            <Image src="/gear.svg" width="25" height="25"></Image>
+            <Image src="/gear.svg" width="25" height="25" alt="image"></Image>
           </div>
         </div>
       )}

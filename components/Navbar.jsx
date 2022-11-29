@@ -13,6 +13,7 @@ const Navbar = ({menuState}) => {
           style={
             {textDecoration: "none"}
           }
+          key={item.id}
         >
           <NavItem key={item.id} icon={item.icon} text={item.text} menuState={menuState} />
         </Link>

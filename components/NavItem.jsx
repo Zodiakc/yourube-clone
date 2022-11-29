@@ -8,6 +8,7 @@ const NavItem = (props) => {
         src={props.icon}
         width="25"
         height="25"
+        alt="image"
         className={props.menuState ? styles.marginIcon : styles.navMenuIcon}
        
       ></Image>
